@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -256,10 +257,10 @@ void node_count() {
 int main() {
     int ch;
     while (1) {
-        printf("\n****MENU****");
+        printf("\n<=====MENU=====>\n");
         printf("\n1.Create\n2.Display\n3.Insert first node\n4.Insert node at end\n");
         printf("5.Insert node at any pos\n6.No.of nodes\n7.Delete first node\n");
-        printf("8.Delete last node\n9.Delete any node\n10.Search element\n11.Replace element\n12.Exit");
+        printf("8.Delete last node\n9.Delete any node\n10.Search element\n11.Replace element\n12.Exit----- \n");
         printf("\nEnter choice: ");
         scanf("%d", &ch);
         switch (ch) {
@@ -275,7 +276,7 @@ int main() {
             case 10: search_element(); break;
             case 11: replace_element(); break;
             case 12: exit(0);
-            default: printf("\nInvalid choice");
+            default: printf("\nInvalid choice\n");
         }
     }
     return 0;
