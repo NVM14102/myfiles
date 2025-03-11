@@ -244,18 +244,18 @@ int main()
 		{
 			case 1: create_nodes();break;
 			case 2: display();break;
-		    case 3: insert_first();break;
+		        case 3: insert_first();break;
 			case 4: insert_last();break;
 			case 5: insert_anypos();break;
-		    case 6: printf("\n Total nodes:%d",count);break; 
-		    case 7: delete_first();break;
-		    case 8: delete_last();break;
-		    case 9: delete_anypos();break;
-		    case 10: search();break;
-		    case 11: replace();break;
-			case 12: exit(0);
+		        case 6: printf("\n Total nodes:%d",count);break; 
+		        case 7: delete_first();break;
+		        case 8: delete_last();break;
+		        case 9: delete_anypos();break;
+		        case 10: search();break;
+		        case 11: replace();break;
+		case 12: exit(0);
 	        default:printf("\n Invalid choice");
-		}//end of switch
-	}//end of while
+		}				//end of switch
+	}				//end of while
 	return 0;
-}//enf of main
+}					//enf of main
