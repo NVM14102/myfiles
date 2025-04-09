@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define SIZE 1
+#define SIZE 5
 
 int top=-1;
 int stack[SIZE];
