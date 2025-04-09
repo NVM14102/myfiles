@@ -1,4 +1,4 @@
-//Stack implementation using LinkedLise
+//Stack implementation using LinkedList
 #include <stdio.h>
 #include <stdlib.h>
 
