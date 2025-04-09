@@ -38,7 +38,7 @@ void display()
 		printf("\n ===STACK IS EMPTY=== \n");
 	}else{
 		printf("\n The Stack elements are :\n");
-		for(i=0;i<=top;i++)
+		for(i=top;i>=0;i--)
 		{
 			printf(" \t| %d |\n",stack[i]);
 		}
