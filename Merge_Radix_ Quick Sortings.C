@@ -1,4 +1,5 @@
-// 1. MERGE SORT IN C
+					// 1. MERGE SORT IN C
+
 #include <stdio.h>
 // Function to merge two halves of an array
 void merge(int arr[], int low, int mid, int high)
@@ -67,7 +68,8 @@ printf("%d\t",a[i]);
 return 0;
 }
 
-// 2.RADIX SORT IN C
+					// 2.RADIX SORT IN C
+
 #include<stdio.h>
 void radix(int[],int);
 void radix(int a[],int n)
