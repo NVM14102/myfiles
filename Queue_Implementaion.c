@@ -94,7 +94,7 @@ int main() {
     int choice, element;
 
     while (1) {
-        printf("\n<-- QUEUE OPERATIONS -->\n");
+        printf("\n<-- QUEUE OPERATIONS -by Array->\n");
         printf("1. ENQUEUE \n2. DEQUEUE \n3. PEEK\n4. DISPLAY\n5. isEMPTY\n6. isFULL\n7. getSIZE\n10. EXIT\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
@@ -247,7 +247,7 @@ int main() {
     int choice, element;
 
     while (1) {
-        printf("\n<-- QUEUE OPERATIONS USING LINKED LIST -->\n");
+        printf("\n<-- QUEUE OPERATIONS---by Linked_list-->\n");
         printf("1. ENQUEUE \n2. DEQUEUE \n3. PEEK\n4. DISPLAY\n5. isEMPTY\n6. getSIZE\n10. EXIT\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
